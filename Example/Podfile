@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LZLlib_Example' do
+  pod 'LZLlib', :path => '../'
+
+  target 'LZLlib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
