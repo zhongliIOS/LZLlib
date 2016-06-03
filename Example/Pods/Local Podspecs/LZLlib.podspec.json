@@ -12,7 +12,7 @@
     "chinaboy007": "755317753@qq.com"
   },
   "source": {
-    "git": "/Users/admin/Desktop/LZLlib",
+    "git": "https://github.com/zhongliIOS/LZLlib.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -27,7 +27,9 @@
   "public_header_files": "LZLlib/Classes/**/*.h",
   "frameworks": [
     "UIKit",
-    "MapKit"
+    "MapKit",
+    "CFNetwork",
+    "SystemConfiguration"
   ],
   "libraries": "z.1",
   "dependencies": {
