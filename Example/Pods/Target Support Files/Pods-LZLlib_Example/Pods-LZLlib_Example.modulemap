@@ -1,0 +1,6 @@
+framework module Pods_LZLlib_Example {
+  umbrella header "Pods-LZLlib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

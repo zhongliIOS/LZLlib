@@ -1,0 +1,38 @@
+{
+  "name": "LZLlib",
+  "version": "0.1.0",
+  "summary": "这是个不错的lib",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhongliIOS/LZLlib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chinaboy007": "755317753@qq.com"
+  },
+  "source": {
+    "git": "/Users/admin/Desktop/LZLlib",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LZLlib/Classes/**/*",
+  "resource_bundles": {
+    "LZLlib": [
+      "LZLlib/Assets/*.png"
+    ]
+  },
+  "public_header_files": "LZLlib/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "libraries": "z.1",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module LZLlib {
+  umbrella header "LZLlib-umbrella.h"
+
+  export *
+  module * { export * }
+}
